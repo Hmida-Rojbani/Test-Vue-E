@@ -10,7 +10,7 @@
         margin: 5px;
         text-align: left;
     }
-    input[type=text], input[type=password], input[type=email], input[type=date] select {
+    input[type=text], input[type=password], input[type=email], input[type=date], select {
         display: inline-block;
         width: 200px;
     }
@@ -41,6 +41,8 @@
 		<input type="radio" th:field="*{gender}" th:value="male"/>Male
 		<input type="radio" th:field="*{gender}" th:value="female"/>Female <br/>
 		
+		<label>Birth Date :</label>
+		<input type="date" th:field="*{birthDate}"/> <br/>
 		<button type="submit">Register</button>
 		</form>
 	</div>
