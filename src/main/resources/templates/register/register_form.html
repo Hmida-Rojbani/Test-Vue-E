@@ -36,6 +36,11 @@
 		<input type="email" th:field="*{email}"/> <br/>
 		<label>Password :</label>
 		<input type="password" th:field="*{password}"/> <br/>
+		
+		<label>Gender :</label>
+		<input type="radio" th:field="*{gender}" th:value="male"/>Male
+		<input type="radio" th:field="*{gender}" th:value="female"/>Female <br/>
+		
 		<button type="submit">Register</button>
 		</form>
 	</div>
